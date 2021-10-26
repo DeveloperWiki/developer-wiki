@@ -8,6 +8,10 @@ export default defineNuxtConfig({
         type: 'image/x-icon',
         href: '/favicon.ico',
       },
+      {
+        rel: 'stylesheet',
+        href: 'https://rsms.me/inter/inter.css',
+      },
     ],
   },
   css: ['tailwindcss/tailwind.css'],
