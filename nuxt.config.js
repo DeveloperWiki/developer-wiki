@@ -10,4 +10,14 @@ export default defineNuxtConfig({
       },
     ],
   },
+  css: ['tailwindcss/tailwind.css'],
+  build: {
+    postcss: {
+      postcssOptions: {
+        plugins: {
+          tailwindcss: {},
+        },
+      },
+    },
+  },
 })
